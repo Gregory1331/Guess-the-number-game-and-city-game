@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(10deg, #052977d2, #440d79cb);
+    background-attachment: fixed;
+    text-align: center;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 90px; 
+}
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px; 
+    text-decoration: none;
+}
+#parent {
+    text-align: center;
+    margin-top: 20px;
+}
+#field {
+    display: inline-block;
+}
+#field1{
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+    height: 70px;
+    font-size: 30px;
+}
+#field td {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+.active {
+    background: rgb(20, 187, 173);
+}
